@@ -1,0 +1,16 @@
+retrieving Embeddings model
+retrieving OpenAI_QA_Over_Docs_Sources collection
+Traceback (most recent call last):
+  File "/home/OpenAI-Milvus-QA-Over-Docs/app.py", line 11, in <module>
+    socketio.run(app, debug=True, port=8446, host='gentai.instamart.ai', ssl_context=(ssl_cert, ssl_key))
+  File "/root/env/lib/python3.10/site-packages/flask_socketio/__init__.py", line 640, in run
+    raise RuntimeError('The Werkzeug web server is not '
+RuntimeError: The Werkzeug web server is not designed to run in production. Pass allow_unsafe_werkzeug=True to the run() method to disable this error.
+retrieving Embeddings model
+retrieving OpenAI_QA_Over_Docs_Sources collection
+Traceback (most recent call last):
+  File "/home/OpenAI-Milvus-QA-Over-Docs/app.py", line 11, in <module>
+    socketio.run(app, debug=True, port=8446, host='gentai.instamart.ai', ssl_context=(ssl_cert, ssl_key))
+  File "/root/env/lib/python3.10/site-packages/flask_socketio/__init__.py", line 640, in run
+    raise RuntimeError('The Werkzeug web server is not '
+RuntimeError: The Werkzeug web server is not designed to run in production. Pass allow_unsafe_werkzeug=True to the run() method to disable this error.
